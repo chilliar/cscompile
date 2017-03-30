@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+     <title>User Registration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="SignupuserJS.js"></script>
+  </head>
+  <body>
+    <h1>Please complete the form to finish registration</h1>
+    <center>
+    <form name="signup" action="signupuser.jsp" method="post">
+      <table border="1">
+          <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" size="60" /></td>
+          </tr>
+          <tr>
+            <td>Username</td>
+            <td><input type="text" name="username" size="60" /></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" size="60" /></td>
+          </tr>
+          <tr>
+            <td>Confirm Password</td>
+            <td><input type="password" name="confirmPwd" size="60" /></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td><select name="gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                </select></td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td><input type="text" name="age" size="60" /></td>
+          </tr>
+          <tr>
+            <td><input type="reset" value="Reset" /></td>
+          <td><input type="button" value="Submit" onClick="validate()"/></td>
+        </tr>
+      </table>
+      <div id="error"></div>
+    </form>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 16, 2017, 3:57:36 PM
+    Author     : chilliar
+*/
+.d_margin{
+            margin:-5px 0px 0px 0px;
+        }
+.index_body_margin{
+            margin:-10px 0px 0px 0px;
+        }
+.blue_text{
+            color:blue;
+        }
+.white_text{
+            color:white;
+        }
+.b-background{
+            background-color:blue;
+        }
+.blue_background{
+            background-color: #2998E4;
+        }
+.dark_blue_background{
+            background-color: #000099;
+        }
+.blk-border {
+            border-color: black;
+            border-width: 3px;
+            border-style: solid;
+        }
+.index_background{
+            background-color: #D7DBDD;
+        }
+.underline{
+            text-decoration: underline;
+        }
+        
+.rules_background{
+            background-color:#1A5276;
+        }
+        
+.pic_margin{
+            margin-top:20px;
+            margin-bottom:20px;
+        }
+ .smaller_image{
+            width:200px;
+        }
+        
+        .csc_margin{
+            padding-left: 100px;
+        }
+        
+        .right {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    padding: 0px;
+        }
+        
+        ul{
+            list-style-type:none;
+            margin: 3px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #EEEEEE;
+            postition: fixed;
+            top: 0;
+            width:100%;
+        }
+        
+        li{
+            float:left;
+            border-right: 1px soild #bbb;
+        }
+        
+        lia {
+            display: block;
+            color: white;
+            text-align:center;
+            padding: 14px 16px
+            
+        }
+        
+        li a:hover{
+            background-color: #111;
+        }
+        
+        
+        

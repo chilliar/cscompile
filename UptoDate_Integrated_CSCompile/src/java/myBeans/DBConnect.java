@@ -15,9 +15,9 @@ public class DBConnect {
     
 
     String driver = "com.mysql.jdbc.Driver";
-    String host = "jdbc:mysql://localhost/mycscompile";
-    String user = "c";
-    String pass = "c";
+    String host = "jdbc:mysql://localhost/cscompile";
+    String user = "root";
+    String pass = "";
     
     Connection conn;
     Statement stm;
